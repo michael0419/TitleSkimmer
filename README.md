@@ -37,4 +37,4 @@ Models trained uses the following datasets:
 - [News Category Dataset from the Huffington Post on Kaggle](https://www.kaggle.com/rmisra/news-category-dataset)
 
 ## Google Slides Presentation
-[Presnetation Link](https://docs.google.com/presentation/d/1-LspBr_Ed0GoAbrr4bAJACHjYOCxewUnFdwcbLJ6fSk/edit?usp=sharing)
+[Presentation Link](https://docs.google.com/presentation/d/1-LspBr_Ed0GoAbrr4bAJACHjYOCxewUnFdwcbLJ6fSk/edit?usp=sharing)
