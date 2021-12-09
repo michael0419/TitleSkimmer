@@ -28,7 +28,7 @@ It ONLY supports the Multinomial Naive Bayes Model
 Title Skimmer showcases the use of 3 machine learning models (Universal Sentence Encoder, Multinomial Naive Bayes, and Deep Learning) to classify titles  
 Title Skimmer also uses the Universal Sentence Encoder in conjunction with a encoded version of the news category dataset to suggest similar titles  
 
-## My Prep work for the project:
+## My prep work for the project:
 [Link to Multinomial Naive Bayes model and data exploratory on GitHub](https://github.com/michael0419/TitleSkimmerDataAnalytics)  
 [Link to Deep Learning model development and similar title function on Google Colab](https://colab.research.google.com/drive/1FaBL1lfuHU6BNvgmFagze9G5HnCFiEND?usp=sharing)
 
