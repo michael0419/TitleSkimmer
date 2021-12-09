@@ -1,0 +1,9 @@
+flask
+pandas
+gunicorn
+sklearn
+matplotlib
+seaborn
+tensorflow
+tensorflow_hub
+dill
