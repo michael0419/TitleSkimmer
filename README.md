@@ -18,6 +18,10 @@ Required folders "models/" and "data/" are available [here](https://www.dropbox.
 Ram usage: ~4GB  
 Total Disk space usage: ~2GB  
 
+## There is a lightweight online version!  
+It ONLY supports the Multinomial Naive Bayes Model  
+[GitHub Link](https://github.com/michael0419/TitleSkimmerLite)  
+[Heroku Link](https://title-skimmer-lite.herokuapp.com/)  
 
 ## About the models usage:
 
