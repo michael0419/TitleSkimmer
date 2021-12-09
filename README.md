@@ -6,7 +6,7 @@ A machine learning project developed for the Cuny Tech Prep program
 ## Goal of Title Skimmer:  
 The main objective for this project is to develop a tool that creators can use to improve the quality of their titles. Users may also use this tool to see how a machine learning model can potentially classify their content when it gets published online.  
 
-So far Title Skimmer meets this need by providing a classification of based on the title, this way a user can make sure their title can accuratly reflect the genre or type of content. 
+So far Title Skimmer meets this need by providing a classification of based on the title, this way a user can make sure their title can accurately reflect the genre or type of content. 
 
 In addition, Title Skimmer can help inspire new titles/headlines by searching similar titles based on meanings from its dataframe.  
 
