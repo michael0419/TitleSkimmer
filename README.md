@@ -19,12 +19,13 @@ Ram usage: ~4GB
 Total Disk space usage: ~2GB  
 
 
-## About the models used:
+## About the models usage:
 
 Title Skimmer showcases the use of 3 machine learning models (Universal Sentence Encoder, Multinomial Naive Bayes, and Deep Learning) to classify titles  
 Title Skimmer also uses the Universal Sentence Encoder in conjunction with a encoded version of the news category dataset to suggest similar titles  
 
-[Link to Multinomial Naive Bayes model and data exploratory oin GitHub](#)  
+## My Prep work for the project:
+[Link to Multinomial Naive Bayes model and data exploratory on GitHub](#)  
 [Link to Deep Learning model development and similar title function on Google Colab](https://colab.research.google.com/drive/1FaBL1lfuHU6BNvgmFagze9G5HnCFiEND?usp=sharing)
 
 ## Data Source:
