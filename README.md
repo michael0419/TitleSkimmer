@@ -10,8 +10,16 @@ So far Title Skimmer meets this need by providing a classification of based on t
 
 In addition, Title Skimmer can help inspire new titles/headlines by searching similar titles based on meanings from its dataframe.  
 
-## Info:
-This repository holds the code required to run the full Title Skimmer flask application  
+## Important Info For Running:
+This repository holds the code required to run the full Title Skimmer flask application**  
+**due to Github limitations, some files were too large so 2 folders need to be downloaded  
+Required folders "models/" and "data/" are available [here](https://www.dropbox.com/sh/blq7sri150vxrcv/AACgJeSzvIos7VIOBIzY_z9za?dl=0)  
+
+Ram usage: ~4GB  
+Total Disk space usage: ~2GB  
+
+
+## About the :
 
 Title Skimmer showcases the use of 3 machine learning models (Universal Sentence Encoder, Multinomial Naive Bayes, and Deep Learning) to classify titles  
 Title Skimmer also uses the Universal Sentence Encoder in conjunction with a encoded version of the news category dataset to suggest similar titles  
@@ -19,6 +27,6 @@ Title Skimmer also uses the Universal Sentence Encoder in conjunction with a enc
 [Link to Multinomial Naive Bayes model and data exploratory oin GitHub](#)  
 [Link to Deep Learning model development and similar title function on Google Colab](https://colab.research.google.com/drive/1FaBL1lfuHU6BNvgmFagze9G5HnCFiEND?usp=sharing)
 
-##Data Source:
+## Data Source:
 Models trained uses the following datasets:
 - [News Category Dataset from the Huffington Post on Kaggle](https://www.kaggle.com/rmisra/news-category-dataset)
