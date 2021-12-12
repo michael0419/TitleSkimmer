@@ -155,9 +155,9 @@ def main():
                 Second_nb=results['Category'][1],
                 Third_nb=results['Category'][2],
 
-                percent_first_nb=results['weight'][0],
-                percent_second_nb=results['weight'][1],
-                percent_third_nb=results['weight'][2],
+                percent_first_nb=float('%.3f' % results['weight'][0]),
+                percent_second_nb=float('%.3f' % results['weight'][1]),
+                percent_third_nb=float('%.3f' % results['weight'][2]),
 
                 
                 both = "True",
@@ -169,9 +169,9 @@ def main():
                 Second_dl=dl_result.iloc[1][0],
                 Third_dl=dl_result.iloc[2][0],
 
-                percent_first_dl=dl_result['Value'].iloc[0],
-                percent_second_dl=dl_result['Value'].iloc[1],
-                percent_third_dl=dl_result['Value'].iloc[2],
+                percent_first_dl= float('%.3f' %dl_result['Value'].iloc[0]),
+                percent_second_dl= float('%.3f' % dl_result['Value'].iloc[1]),
+                percent_third_dl= float('%.3f' %dl_result['Value'].iloc[2]),
 
                 #sentence_result.iloc[0][0]
                 sent_1 = sentence_result.iloc[0][0],
@@ -180,11 +180,11 @@ def main():
                 sent_4 = sentence_result.iloc[3][0],
                 sent_5 = sentence_result.iloc[4][0],
 
-                percent_sent_1 = sentence_result['similarity'].iloc[0][0]*100,
-                percent_sent_2 = sentence_result['similarity'].iloc[1][0]*100,
-                percent_sent_3 = sentence_result['similarity'].iloc[2][0]*100,
-                percent_sent_4 = sentence_result['similarity'].iloc[3][0]*100,
-                percent_sent_5 = sentence_result['similarity'].iloc[4][0]*100,
+                percent_sent_1 = float('%.3f' % (sentence_result['similarity'].iloc[0][0]*100)),
+                percent_sent_2 = float('%.3f' % (sentence_result['similarity'].iloc[1][0]*100)),
+                percent_sent_3 = float('%.3f' % (sentence_result['similarity'].iloc[2][0]*100)),
+                percent_sent_4 = float('%.3f' % (sentence_result['similarity'].iloc[3][0]*100)),
+                percent_sent_5 = float('%.3f' % (sentence_result['similarity'].iloc[4][0]*100)),
 
             )
         
@@ -198,9 +198,9 @@ def main():
                 Second_nb=results['Category'][1],
                 Third_nb=results['Category'][2],
 
-                percent_first_nb=results['weight'][0],
-                percent_second_nb=results['weight'][1],
-                percent_third_nb=results['weight'][2],
+                percent_first_nb=float('%.3f' %results['weight'][0]),
+                percent_second_nb=float('%.3f' %results['weight'][1]),
+                percent_third_nb=float('%.3f' %results['weight'][2]),
 
                 both = "True",
 
@@ -210,9 +210,9 @@ def main():
                 Second_dl=dl_result.iloc[1][0],
                 Third_dl=dl_result.iloc[2][0],
 
-                percent_first_dl=dl_result['Value'].iloc[0],
-                percent_second_dl=dl_result['Value'].iloc[1],
-                percent_third_dl=dl_result['Value'].iloc[2],
+                percent_first_dl=float('%.3f' %dl_result['Value'].iloc[0]),
+                percent_second_dl=float('%.3f' %dl_result['Value'].iloc[1]),
+                percent_third_dl=float('%.3f' %dl_result['Value'].iloc[2]),
             )
         
         elif sentence:
@@ -225,9 +225,9 @@ def main():
                 Second_nb=results['Category'][1],
                 Third_nb=results['Category'][2],
 
-                percent_first_nb=results['weight'][0],
-                percent_second_nb=results['weight'][1],
-                percent_third_nb=results['weight'][2],
+                percent_first_nb=float('%.3f' %results['weight'][0]),
+                percent_second_nb=float('%.3f' %results['weight'][1]),
+                percent_third_nb=float('%.3f' %results['weight'][2]),
 
                 mnbayes = "True", 
                 sentence = "True",
@@ -238,11 +238,11 @@ def main():
                 sent_4 = sentence_result.iloc[3][0],
                 sent_5 = sentence_result.iloc[4][0],
 
-                percent_sent_1 = sentence_result['similarity'].iloc[0][0]*100,
-                percent_sent_2 = sentence_result['similarity'].iloc[1][0]*100,
-                percent_sent_3 = sentence_result['similarity'].iloc[2][0]*100,
-                percent_sent_4 = sentence_result['similarity'].iloc[3][0]*100,
-                percent_sent_5 = sentence_result['similarity'].iloc[4][0]*100,
+                percent_sent_1 = float('%.3f' % (sentence_result['similarity'].iloc[0][0]*100)),
+                percent_sent_2 = float('%.3f' % (sentence_result['similarity'].iloc[1][0]*100)),
+                percent_sent_3 = float('%.3f' % (sentence_result['similarity'].iloc[2][0]*100)),
+                percent_sent_4 = float('%.3f' % (sentence_result['similarity'].iloc[3][0]*100)),
+                percent_sent_5 = float('%.3f' % (sentence_result['similarity'].iloc[4][0]*100)),
                 
             )
 
@@ -255,9 +255,9 @@ def main():
             Second_nb=results['Category'][1],
             Third_nb=results['Category'][2],
 
-            percent_first_nb=results['weight'][0],
-            percent_second_nb=results['weight'][1],
-            percent_third_nb=results['weight'][2],
+            percent_first_nb=float('%.3f' %results['weight'][0]),
+            percent_second_nb=float('%.3f' %results['weight'][1]),
+            percent_third_nb=float('%.3f' %results['weight'][2]),
 
             mnbayes = "True", 
         )
