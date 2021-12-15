@@ -30,7 +30,7 @@ Title Skimmer also uses the Universal Sentence Encoder in conjunction with a enc
 
 ## My prep work for the project:
 [Link to Multinomial Naive Bayes model and data exploratory on GitHub](https://github.com/michael0419/TitleSkimmerDataAnalytics)  
-[Link to Deep Learning model development and similar title function on Google Colab](https://colab.research.google.com/drive/1FaBL1lfuHU6BNvgmFagze9G5HnCFiEND?usp=sharing)
+[Link to Neural Networking model development and similar title function on Google Colab](https://colab.research.google.com/drive/1FaBL1lfuHU6BNvgmFagze9G5HnCFiEND?usp=sharing)
 
 ## Data Source:
 Models trained uses the following datasets:
